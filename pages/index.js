@@ -5,19 +5,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>POSDemo React + NextJS</title>
       </Head>
 
       <main className={styles.main}>
-        <img src="https://lh4.googleusercontent.com/h-uDcdEZPSYyrVdtuUT85Y1wCPWHK31HsXDJvfnXC5yJYHDJkcfKwhfmoMYGNQWpFKqzg3_IzqpdGsU6CZI090tyJ3W3IC70K9BGmUezrcqYXkMJ=w1280" />
-        <h2 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Joven!</a>
-          <br />
-          NextJS Demo Project
-        </h2>
+        <h2 className={styles.title}>NextJS Demo Project 2023</h2>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/tablet-ordering" className={styles.card}>
             <h3>Tablet Ordering &rarr;</h3>
             <p>
               This is a demo source code for showing tablet ordering work
@@ -25,7 +20,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/kiosk-ordering" className={styles.card}>
             <h3>Kiosk Ordering &rarr;</h3>
             <p>
               This is a demo source code for showing kiok ordering works written
@@ -33,11 +28,8 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Order Queue &rarr;</h3>
+          <a href="/queue-orders" className={styles.card}>
+            <h3>Queue Orders &rarr;</h3>
             <p>
               This is demo source code for showing how ordering queue works
               written in React.
