@@ -9,49 +9,50 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <img src="https://lh4.googleusercontent.com/h-uDcdEZPSYyrVdtuUT85Y1wCPWHK31HsXDJvfnXC5yJYHDJkcfKwhfmoMYGNQWpFKqzg3_IzqpdGsU6CZI090tyJ3W3IC70K9BGmUezrcqYXkMJ=w1280" />
+        <h2 className={styles.title}>
+          Welcome to <a href="https://nextjs.org">Joven!</a>
+          <br />
+          NextJS Demo Project
+        </h2>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>Tablet Ordering &rarr;</h3>
+            <p>
+              This is a demo source code for showing tablet ordering work
+              written in React.
+            </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>Kiosk Ordering &rarr;</h3>
+            <p>
+              This is a demo source code for showing kiok ordering works written
+              in React.
+            </p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+            <h3>Order Queue &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              This is demo source code for showing how ordering queue works
+              written in React.
             </p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://next.new" target="_blank" rel="noopener noreferrer">
-          Created with&nbsp;<b>next.new</b>&nbsp;⚡️
+        <a
+          href="https://www.jbarola.net"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Created with ⚡️&nbsp;<b>Joven Barola (jbarola.net)</b>&nbsp;
         </a>
       </footer>
     </div>
