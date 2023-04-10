@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>POSDemo React + NextJS</title>
       </Head>
-
       <main className={styles.main}>
         <h2 className={styles.title}>NextJS Demo Project 2023</h2>
 
@@ -37,7 +36,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
       <footer className={styles.footer}>
         <a
           href="https://www.jbarola.net"
